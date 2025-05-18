@@ -47,3 +47,5 @@ const firebaseConfig = {
     });
 
     loadComments();
+
+    //para lang mag deploy or mag load yung website sa vercel

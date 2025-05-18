@@ -26,3 +26,5 @@ function clickme(){
     first = !first;
 }
 
+
+//para lang mag deploy or mag load yung website sa vercel
