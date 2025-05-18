@@ -1,12 +1,11 @@
 const firebaseConfig = {
-      apiKey: "AIzaSyAs9PIZbovAsGWgtEQ9HZJZ0Dto14wb89c",
-      authDomain: "comments-b3497.firebaseapp.com",
-      databaseURL: "https://comments-b3497-default-rtdb.firebaseio.com",
-      projectId: "comments-b3497",
-      storageBucket: "comments-b3497.firebasestorage.app",
-      messagingSenderId: "923449456117",
-      appId: "1:923449456117:web:38e674de5c47db1ece9cbc",
-      measurementId: "G-PT2GYS218F"
+  apiKey: "AIzaSyA-JhD6l7C11C4-TpscRpGtgNlewoJK6cc",
+  authDomain: "comments-c7d5e.firebaseapp.com",
+  projectId: "comments-c7d5e",
+  storageBucket: "comments-c7d5e.firebasestorage.app",
+  messagingSenderId: "804320538281",
+  appId: "1:804320538281:web:264522ae382bb64b0a43b8",
+  measurementId: "G-LXMJZHFNYC"
     };
 
     firebase.initializeApp(firebaseConfig);
