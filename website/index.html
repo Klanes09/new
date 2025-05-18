@@ -8,6 +8,7 @@
     <title>Home Page</title>
 </head>
 <body>
+<section id="top">
     <div>
         <nav>
             <ul class="sidebar">
@@ -22,11 +23,18 @@
                 <li class="mobile"><a href="#home">Home</a></li>
                 <li class="mobile"><a href="#info">Info</a></li>
                 <li class="mobile"><a href="#accounts">Accounts</a></li>
-                <li class="mobile"><a href="#commnets">Comment</a></li>
+                <li class="mobile"><a href="#comments">Comment</a></li>
                 <li class="menu" onclick=showSidebar()><a href="#"><i class="fa-solid fa-bars"></i></a></li>
             </ul>
         </nav>
     </div>
+</section>
+    
+    
+    <a href="#top" id="up" height="50px" width="50px" title="Back to top" class="up">
+        <i class="fa-solid fa-arrow-up"></i>
+    </a>
+       
 
     <div class="welcome">
         <section id="home">
@@ -51,9 +59,10 @@
     </div>
     </section>
 
+    <section id="accounts">
     <div class="acc">
     <div class="accounts">
-        <section id="accounts">
+        
         <a href="https://github.com/Klanes09" target="_blank" title="Github" class="link3">
                 <i class="fa-brands fa-github"></i>
                 Github
@@ -66,14 +75,29 @@
                 <i class="fa-brands fa-twitter"></i>
                 twitter
             </a>
-        </section>
     </div>
     </div>
+    </section>
+
+    <section id="comments">
+    <div class="com">
+    <div class="comments">
+        
+            <h1>Leave a Comment</h1>
+            <form id="commentForm">
+                <input type="text" id="nameInput" placeholder="Dito mo lagay name mo" required /><br /><br />
+                <textarea id="commentInput" rows="1" cols="21" placeholder="Dito naman comments mo" required></textarea><br />
+                <button type="submit">Submit</button>
+            </form>    
+    </div>
+    </div>
+    </section>
 
     <div class="footer">
         <p class="pp1">Thanks for visiting :)</p>
     </div>
 
     <script src="index.js"></script>
+    <script src="script.js"></script>
 </body>
 </html>
