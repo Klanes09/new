@@ -1,3 +1,7 @@
+html{
+    scroll-behavior: smooth;
+}
+
 *{
     margin: 0;
     padding: 0;
@@ -39,6 +43,7 @@ nav li:first-child{
 }
 
 .sidebar{
+    display: none;
     position: fixed;
     top: 0;
     right: 0;
@@ -58,6 +63,169 @@ nav li:first-child{
 }
 .menu{
     display: none;
+}
+
+/* css for the welcome*/
+.welcome{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 30vh;
+    flex-direction: column;
+}
+.welcome h1{
+    font-size: 5rem;
+    font-style: oblique;
+    font-weight: 600;
+    font-variant: small-caps;
+    text-align: center;
+    transition: all 0.3s ease;
+    background: linear-gradient(270deg, #ff6b6b, #f7d716, #1dd1a1, #54a0ff, #5f27cd, #ff6b6b);
+    background-size: 1200% 1200%;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    animation: ani 5s ease-in-out infinite;
+}
+
+.welcome p{
+    font-size: 1rem;
+    font-style: oblique;
+    color: #413d3d;
+    text-align: center;
+    transition: all 0.3s ease;
+}
+
+/* css for button*/
+.but{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 10vh;
+}
+
+.btn{
+    background-color: #ffffff8e;
+    color: black;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: all 0.3s ease;
+    font-size: 20px;
+    backdrop-filter: blur(5px);
+    box-shadow: 3px 3px 5px #6b6363;
+    padding: 10px 20px;
+    border-radius: 50px;
+    margin: 0 20px;
+}
+
+/* css for info*/
+.in{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.inf{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 30vh;
+    width: 1000px;
+    flex-direction: column;
+    background-color: #ffffff52;
+    backdrop-filter: blur(5px);
+    box-shadow: 3px 3px 5px #6b6363;
+    border-radius: 50px;
+    margin: 0 20px;
+    
+}
+.inf h2{
+    font-size: 50px;
+    font-style: oblique;
+    font-weight: 600;
+    display: flex;
+    transition: all 0.3s ease;
+    flex-direction: column;
+    text-align: center;
+}
+.inf p{
+    font-size: 20px;
+    font-style: oblique;
+    color: #413d3d;
+    text-align: center;
+    transition: all 0.3s ease;
+}
+
+/* css for accounts */
+.acc{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.accounts{
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 20vh;
+    width: 200px;
+    flex-direction: column;
+    background-color: #ffffff52;
+    backdrop-filter: blur(5px);
+    box-shadow: 3px 3px 5px #6b6363;
+    border-radius: 50px;
+    margin: 0 20px;
+}
+.accounts a{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    font-size: 30px;
+    font-style: oblique;
+    font-weight: 600;
+    transition: all 0.3s ease;
+    padding: 10px 20px;
+    display: flex;
+
+}
+.accounts a:hover{
+    background: linear-gradient(270deg, #ff6b6b, #f7d716, #1dd1a1, #54a0ff, #5f27cd, #ff6b6b);
+    background-size: 120% 1200%;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    animation: ani 5s ease-in-out infinite;
+    border-radius: 50px;
+    background-color: #0000008e;
+}
+
+/* css for footer */
+.footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 10vh;
+    background-color: #413d3d;
+    color: rgb(255, 255, 255);
+    box-shadow: 3px 3px 5px #6b6363;
+}
+.pp1{
+    display: inline-block;
+    position: relative;
+    animation: moveText 1s linear infinite;
+}
+
+@keyframes moveText {
+    0%   { left: 0; }
+    50%  { left: 100px; }
+    100% { left: 0; }
+}
+
+@keyframes ani {
+    0% { background-position: 0% 50%; }
+    50% { background-position: 100% 50%; }
+    100% { background-position: 0% 50%; }
 }
 
 @media screen and (max-width: 800px) {
