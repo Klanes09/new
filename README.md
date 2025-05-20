@@ -5,13 +5,12 @@ Frontend: HTML, CSS, JAVASCRIPT
 
 Backend: Firebase Database
 
-The Website if hosted/deployed on Vercel using Terraform
 
+The Website if hosted/deployed on Vercel using Terraform
 Used HTML for the structure of the site, CSS for the design and JS for the functionality of the website.
 The backend is Firebase Database. When something commented on the site the site send the data to firebase and displayed on the site.
 
 Regarding the deletion of the comment I can easily delete the comment in the firebase database.
-
 The database is connected in the script.js file where the api key, and project name is in it. :)
 
 ____________________________________________________________________________________________________________________________________________________________
