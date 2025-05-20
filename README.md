@@ -2,6 +2,7 @@ WEBSITE: https://kland-site.vercel.app/
 ___________________________________________________________________________________________________________________________________________________________
 
 Frontend: HTML, CSS, JAVASCRIPT
+
 Backend: Firebase Database
 
 The Website if hosted/deployed on Vercel using Terraform
