@@ -37,11 +37,11 @@ Using this script/command- main.tf
     }
 
     resource "vercel_project" "my_site" {
-      name      = "my-site"
+      name      = "kland-site"
 
       git_repository = {
         type   = "github"
-        repo   = "Klanes09/WebsiteCloud"
+        repo   = "Klanes09/new"
       }
 
       build_command = "" # no build command needed for static sites
