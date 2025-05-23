@@ -17,7 +17,7 @@ ________________________________________________________________________________
 
 After finishing the site I uploaded it using Terraform and hosted in Vercel.
 
-Using this script/command- 'main.tf'
+Using this script/command- `main.tf`
 
     terraform {
       required_providers {
