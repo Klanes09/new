@@ -6,7 +6,7 @@ Frontend: HTML, CSS, JAVASCRIPT
 Backend: Firebase Database
 
 
-The Website if hosted/deployed on Vercel using Terraform
+The Website is hosted/deployed on Vercel using Terraform
 Used HTML for the structure of the site, CSS for the design and JS for the functionality of the website.
 The backend is Firebase Database. When something commented on the site the site send the data to firebase and displayed on the site.
 
@@ -17,7 +17,7 @@ ________________________________________________________________________________
 
 After finishing the site I uploaded it using Terraform and hosted in Vercel.
 
-Using this script/command- main.tf
+Using this script/command- 'main.tf'
 
     terraform {
       required_providers {
